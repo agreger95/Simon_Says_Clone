@@ -43,7 +43,6 @@ function showPattern(){
     setTimeout(function(){
       $("#" + element).fadeOut(200).fadeIn(200);
       playSound(element);
-      console.log(element);
     }, index * interval);
   });
 }
